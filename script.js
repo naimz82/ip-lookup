@@ -1,4 +1,4 @@
-$("#frmHomeIpLook").on("submit", function(e){
+$("#formIpLookup").on("submit", function(e){
     e.preventDefault();
     let iplookaddr = $("#iplookaddr").val();
     $.ajax({
